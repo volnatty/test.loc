@@ -93,6 +93,19 @@ echo '<br>';
 $c=255;
 $d=15;
 var_dump(10==(abs($check=$c-$d)));
-
+echo '<br>';
+echo '<br>';
+// 4. average and comparing - have i got the task?
+$q=8;
+$w=89;
+$r=632.2;
+$average=($q+$w+$r)/4;
+echo "average of numbers $q, $w, $r is $average  ";
+echo '<br>';
+echo $q."  ".var_dump($average==$q).'<br>';
+echo $w."  ".var_dump($average==$w).'<br>';
+echo $r."  ".var_dump($average==$r).'<br>';
+echo '<br>';
+echo '<br>';s
 ?>
 
