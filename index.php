@@ -80,12 +80,16 @@ echo'<br>';
 /*
 homework. number 1 - done)))
 2. perimeter and square calculation
+ Вычислить периметр и площадь прямоугольника если вторая сторона в 4 раза больше первой (первую сторону придумать самому)
 */
 $a=10;
 $b=$a*4;
 echo "if a= ".$a." and b= ".$b. " the perimeter is (a+b)*2, so it is ".$p=(($a+$b)*2)." mm, and square should be ".$s=$a*$b." mm*2".'<br>';
 echo'<br>';
-// 3. true or false?
+/* 3. true or false?
+ Дано два числа. Вывести значение результата в логической переменной,
+которое определяет,  отличаются ли первое от второго на 10.
+(ответ true или false) */
 $c=5;
 $d=15;
 var_dump(10==(abs($check=$c-$d)));
@@ -95,7 +99,10 @@ $d=15;
 var_dump(10==(abs($check=$c-$d)));
 echo '<br>';
 echo '<br>';
-// 4. average and comparing - have i got the task?
+/* 4. average and comparing - have i got the task?
+ Даны три числа. Найдите их среднее арифметическое, умножить его на 4
+и сравнить с каждым из чисел.
+(ответ true или false + сами числа) */
 $q=8;
 $w=89;
 $r=632.2;
@@ -106,6 +113,14 @@ echo $q."  ".var_dump($average==$q).'<br>';
 echo $w."  ".var_dump($average==$w).'<br>';
 echo $r."  ".var_dump($average==$r).'<br>';
 echo '<br>';
-echo '<br>';s
+/* 5. Дано число. Увеличьте его на 30%, на 120% и
+сравнить среднее арифметическое результатов с первоначальным числом
+(ответ true или false + сами числа) */
+$t=100;
+$y=$t*1.3;
+echo ", $t, $y ".var_dump($t==($t+$y)/2).'<br>';
+$g=$t*2.2;
+echo ", $t, $y, $g".var_dump($t==($t+$y+$g)/3).'<br>';
+echo '<br>';
 ?>
 
