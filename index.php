@@ -85,6 +85,14 @@ $a=10;
 $b=$a*4;
 echo "if a= ".$a." and b= ".$b. " the perimeter is (a+b)*2, so it is ".$p=(($a+$b)*2)." mm, and square should be ".$s=$a*$b." mm*2".'<br>';
 echo'<br>';
+// 3. true or false?
+$c=5;
+$d=15;
+var_dump(10==(abs($check=$c-$d)));
+echo '<br>';
+$c=255;
+$d=15;
+var_dump(10==(abs($check=$c-$d)));
 
 ?>
 
