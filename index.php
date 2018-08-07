@@ -122,5 +122,15 @@ echo ", $t, $y ".var_dump($t==($t+$y)/2).'<br>';
 $g=$t*2.2;
 echo ", $t, $y, $g".var_dump($t==($t+$y+$g)/3).'<br>';
 echo '<br>';
+// 6. Найти сумму квадратов  36% от первого числа и 87% от второго числа
+$a=200;
+$a*=0.36;
+$v=555;
+$v*=0.87;
+echo "sum of sguares is ".$smusq=($a*$a)+($v*$v).'<br>';
+/* it wrote syntax error, unexpected '*'
+in D:\php\OSPanel\domains\test.loc\index.php on line
+while i did ($a**2) - probably, not supported((( */
+
 ?>
 
