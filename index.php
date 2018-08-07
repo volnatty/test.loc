@@ -55,16 +55,26 @@ echo '<br>';
 echo "$day somethings".'<br>';
 //or like that?)
 echo "$day"." $fruit2".'<br>';
+echo '<br>';
 //string+integer
 echo var_dump('77'+7).'=String "77"+integer "7"'.'<br>';
 echo '<br>';
 //string+string
 echo "$fruit1 $fruit2".'<br>';
+echo '<br>';
 //float+integer
 echo var_dump(55.5+6)." = float '55.5'+integer '6'".'<br>';
+echo '<br>';
 // I GOT IT!!!))) float+float
 echo "float '33.33' + float '77.67' = ";var_dump(33.33+77.67);
 echo'<br>';
+echo'<br>';
+//number 7 - currency exchange
+$rate=23;
+$uah=15698;
+$usd=(int)($uah/$rate);
+$cent=($uah%$rate);
+echo "you can obtaine $usd US dollars and $cent cents just now and ".'<br>';
 
 
 ?>
