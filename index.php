@@ -47,6 +47,24 @@ echo '<br>';
 $distance=85;
 $time=2;
 echo "you should to drive ".$velocity=$distance/$time." km/h".'<br>';
+echo '<br>';
+//didn't understend quitely - doing as i got it
+echo 'integer"15"+srting"5"=';var_dump(15+'5');
+echo '<br>';
+//integer+string
+echo "$day somethings".'<br>';
+//or like that?)
+echo "$day"." $fruit2".'<br>';
+//string+integer
+echo var_dump('77'+7).'=String "77"+integer "7"'.'<br>';
+echo '<br>';
+//string+string
+echo "$fruit1 $fruit2".'<br>';
+//float+integer
+echo var_dump(55.5+6)." = float '55.5'+integer '6'".'<br>';
+// I GOT IT!!!))) float+float
+echo "float '33.33' + float '77.67' = ";var_dump(33.33+77.67);
+echo'<br>';
 
 
 ?>
