@@ -131,6 +131,20 @@ echo "sum of sguares is ".$smusq=($a*$a)+($v*$v).'<br>';
 /* it wrote syntax error, unexpected '*'
 in D:\php\OSPanel\domains\test.loc\index.php on line
 while i did ($a**2) - probably, not supported((( */
+echo '<br>';
+echo '<br>';
+/* 7.  Дано трехзначное число. Найдите сумму его цифр
+ ( с помощью отделения единиц, десятков,сотен ).
+Например: есть число 123,
+то программа должна вычислить сумму цифр 1, 2, 3, т. е. 6.*/
+$number=584;
+$first_part=(int)($number/100);
+$second_part=(int)(($number-$first_part*100)/10);
+$third_part=($number-$first_part*100-$second_part*10);
+echo "sum of all numbers in $number is ".$my_sum=$first_part+$second_part+$third_part.'<br>';
+echo '<br>';
+echo '<br>';
+
 
 ?>
 
