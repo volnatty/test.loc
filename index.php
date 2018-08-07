@@ -75,7 +75,16 @@ $uah=15698;
 $usd=(int)($uah/$rate);
 $cent=($uah%$rate);
 echo "you can obtaine $usd US dollars and $cent cents just now and ".'<br>';
-
+echo'<br>';
+echo'<br>';
+/*
+homework. number 1 - done)))
+2. perimeter and square calculation
+*/
+$a=10;
+$b=$a*4;
+echo "if a= ".$a." and b= ".$b. " the perimeter is (a+b)*2, so it is ".$p=(($a+$b)*2)." mm, and square should be ".$s=$a*$b." mm*2".'<br>';
+echo'<br>';
 
 ?>
 
