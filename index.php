@@ -162,6 +162,11 @@ echo '<br>';
 Сплав весит 571 кг .
 Найти массовую долю каждого компонента */
 $compound_w=571;
+$fe=23;
+$lead=17;
+$copper=60;
+echo "in this alloy of total weight $compound_w kg is ".$compound_w/100*$fe." kg of Fe,",'<br>';
+echo $compound_w/100*$lead." kg of Sn and ".$compound_w/100*$copper." kg of Cu.".'<br>';
 
 ?>
 
