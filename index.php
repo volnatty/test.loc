@@ -54,7 +54,7 @@ echo '<br>';
 //integer+string
 echo "$day somethings".'<br>';
 //or like that?)
-echo "$day"." $fruit2".'<br>';
+echo $day." $fruit2".'<br>';
 echo '<br>';
 //string+integer
 echo var_dump('77'+7).'=String "77"+integer "7"'.'<br>';
@@ -137,14 +137,31 @@ echo '<br>';
  ( с помощью отделения единиц, десятков,сотен ).
 Например: есть число 123,
 то программа должна вычислить сумму цифр 1, 2, 3, т. е. 6.*/
-$number=584;
+$number=725;
 $first_part=(int)($number/100);
 $second_part=(int)(($number-$first_part*100)/10);
 $third_part=($number-$first_part*100-$second_part*10);
 echo "sum of all numbers in $number is ".$my_sum=$first_part+$second_part+$third_part.'<br>';
 echo '<br>';
 echo '<br>';
-
+/* 8. Возьмите свой вес , посчитайте с какой силой вас притягивает земля
+(вес умножить на 10 ньютон на килограмм)
+и с какой силой вам надо оттолкнуться от земли чтобы подпрыгнуть
+(сила притяжения земли + X ньютон (взять любое число больше 300))*/
+$weight=60;
+echo "i need a power)))) nearly... ".$power=($weight*9.8+350)." N.".'<br>';
+echo '<br>';
+echo '<br>';
+/* 9. Вычислить массовую долю соли в 3% растворе массой 36 кг*/
+$salt=3;
+$solution=36;
+echo "if solution weight is $solution kg and it contains $salt % of salt, so it contains ".$s_w=$solution/100*$salt." kg of salt".'<br>';
+echo '<br>';
+echo '<br>';
+/* 10. В сплаве 23% железа 17% олова и 60% меди .
+Сплав весит 571 кг .
+Найти массовую долю каждого компонента */
+$compound_w=571;
 
 ?>
 
